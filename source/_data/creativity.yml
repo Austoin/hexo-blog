@@ -1,0 +1,44 @@
+- class_name: 技术栈
+  creativity_list:
+    - name: HTML
+      color: "#e34c26"
+      icon: /img/tech-icons/html.svg
+    - name: CSS
+      color: "#1572b6"
+      icon: /img/tech-icons/css.svg
+    - name: JavaScript
+      color: "#f7df1e"
+      icon: /img/tech-icons/javascript.svg
+    - name: Vue
+      color: "#42b883"
+      icon: /img/tech-icons/vue.svg
+    - name: React
+      color: "#61dafb"
+      icon: /img/tech-icons/react.svg
+    - name: Node.js
+      color: "#339933"
+      icon: /img/tech-icons/nodejs.svg
+    - name: Python
+      color: "#3776ab"
+      icon: /img/tech-icons/python.svg
+    - name: Golang
+      color: "#00ADD8"
+      icon: /img/tech-icons/golang.svg
+    - name: Git
+      color: "#f05032"
+      icon: /img/tech-icons/git.svg
+    - name: Docker
+      color: "#2496ed"
+      icon: /img/tech-icons/docker.svg
+    - name: MySQL
+      color: "#4479a1"
+      icon: /img/tech-icons/mysql.svg
+    - name: MongoDB
+      color: "#47a248"
+      icon: /img/tech-icons/mongodb.svg
+    - name: Redis
+      color: "#DC382D"
+      icon: /img/tech-icons/redis.svg
+    - name: GitHub
+      color: "#181717"
+      icon: /img/tech-icons/github.svg
