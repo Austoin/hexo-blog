@@ -85,9 +85,13 @@ openclaw tui
 
 将获取到的机器人信息输入到云服务器的 OpenClaw 配置中。
 
+![机器人配置界面](/img/posts/23-openclaw/1.webp)
+
 ### 3.3 测试机器人
 
 配置完成后，直接在 QQ 中 @ 你的机器人并发送消息，测试是否能正常回复。
+
+![QQ 机器人测试](/img/posts/23-openclaw/2.webp)
 
 **参考教程：** [QQ 机器人接入指南](https://cloud.tencent.com/developer/article/2626045)
 
@@ -131,11 +135,17 @@ http://localhost:18789/chat?session=agent%3Amain%3Amain
 cat /root/.openclaw/openclaw.json | grep -A2 token
 ```
 
+![获取 Token](/img/posts/23-openclaw/3.webp)
+
 将获取到的 Token 复制并粘贴到 Web UI 的"网关令牌"输入框中。
+
+![输入 Token](/img/posts/23-openclaw/4.webp)
 
 ### 4.4 开始使用
 
 Token 验证成功后，即可在 Web UI 中进行可视化对话和管理。
+
+![Web UI 对话界面](/img/posts/23-openclaw/5.webp)
 
 **参考教程：** [OpenClaw Web UI 使用指南](https://cloud.tencent.com/developer/article/2627309)
 
