@@ -1,10 +1,10 @@
 ---
 title: 腾讯云部署 OpenClaw QQ 机器人：中转 API + Web UI 可视化完整指南
 date: 2026-03-07 22:00:00
-updated: 2026-03-07 22:00:00
+updated: 2026-03-07 23:30:00
 tags: [OpenClaw, QQ机器人]
 categories: [技术文档]
-description: 详细讲解如何在腾讯云服务器上部署 OpenClaw QQ 机器人，包括服务器配置、中转 API 设置、机器人创建以及 Web UI 可视化管理的完整流程
+description: 详细讲解如何在腾讯云服务器上部署 OpenClaw QQ 机器人，包括服务器配置、中转 API 设置、机器人创建、Web UI 可视化管理以及推荐的 MCP Skills 配置
 cover: /img/cover/cover23.webp
 top_img: /img/cover/cover23.webp
 sticky: 2
@@ -184,6 +184,44 @@ Token 验证成功后，即可在 Web UI 中进行可视化对话和管理。
 - 远程执行代码、开发小工具
 - 自动修复 Bug、生成代码片段
 - 你有想法一般都办得到
+
+### 推荐 MCP Skills 配置（精简版）
+
+为了增强 OpenClaw 的能力，推荐安装以下 8 个 Skills，这些都是纯本地或使用免费公开接口，无需任何 API Key：
+
+1. **self-improving-agent**（自进化）
+   - 让 AI 具备自我学习和优化能力
+   - 适合长期运行的自动化任务
+
+2. **summarize**（总结网页/PDF）
+   - 快速提取网页和 PDF 文档的核心内容
+   - 适合信息收集和知识管理
+
+3. **weather**（天气）
+   - 获取实时天气信息
+   - 可用于日常提醒和决策辅助
+
+4. **academic-research**（学术搜索）
+   - 搜索学术论文和研究资料
+   - 适合技术调研和学习
+
+5. **filesystem**（文件管理）
+   - 本地文件的读写、搜索和管理
+   - 增强文件处理自动化能力
+
+6. **shell**（命令执行）
+   - 执行系统命令和脚本
+   - 实现更复杂的自动化操作
+
+7. **memory**（长期记忆）
+   - 保存和检索历史对话信息
+   - 让 AI 具备上下文记忆能力
+
+8. **find-skills**（技能发现助手）
+   - 帮助发现和安装更多 Skills
+   - 扩展 OpenClaw 的功能边界
+
+这些 Skills 都是免费且易于配置的，可以根据实际需求选择性安装，大幅提升 OpenClaw 的实用性。
 
 **成本提醒：**
 
