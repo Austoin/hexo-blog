@@ -7,6 +7,7 @@ categories: [技术文档]
 description: 详细讲解如何在腾讯云服务器上部署 OpenClaw QQ 机器人，包括服务器配置、中转 API 设置、机器人创建以及 Web UI 可视化管理的完整流程
 cover: /img/cover/cover23.webp
 top_img: /img/cover/cover23.webp
+sticky: 2
 ---
 
 ## 前言
