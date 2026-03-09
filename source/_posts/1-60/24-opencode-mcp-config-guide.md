@@ -2,7 +2,7 @@
 title: OpenCode MCP 配置完整流程：从安装到连通性验证
 date: 2026-03-08 21:20:00
 updated: 2026-03-08 21:20:00
-tags: [OpenCode, MCP, Playwright, Fetch]
+tags: [OpenCode, MCP]
 categories: [AI工具配置]
 description: 基于官方文档的 OpenCode MCP 配置实战，包含本地 MCP 安装、opencode.json 配置、连通性验证、常见报错排查与发布流程。
 cover: /img/cover/cover24.webp
