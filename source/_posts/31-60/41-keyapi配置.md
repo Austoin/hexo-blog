@@ -45,7 +45,7 @@ top_img: /img/cover/cover41.webp
 
 然后就可以启动终端的配置命令了。
 ```bash
-opencode auth longin
+opencode auth login
 ```
 选择 GPT 的配置：
 ![](/img/posts/41-api-opencode/2.png)
